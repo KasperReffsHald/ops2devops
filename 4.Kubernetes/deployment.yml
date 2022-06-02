@@ -1,6 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  namespace: student0
   name: student0-deployment
 spec:
   selector:
